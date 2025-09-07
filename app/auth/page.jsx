@@ -15,6 +15,8 @@ const login = () => {
     if(error){
       console.log("Error hai idhar:", error.message)
     }
+
+    
   }
   return (
     <div className='flex flex-col items-center justify-center h-screen' >
@@ -38,6 +40,8 @@ const login = () => {
        <p className='text-gray-500 text-center' >Sign In with google Authentication</p>
        <Button className='mt-7 w-full' 
        onClick={signInWithGoogle} >Login with google</Button>
+
+       
 
  
       </div>
